@@ -20,7 +20,7 @@ script:
   - make lint
   - make test
   - make bench
-  - fossa
+  - fossa --include-all
 after_success:
   - make cover
   - bash <(curl -s https://codecov.io/bash)
