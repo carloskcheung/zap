@@ -2,6 +2,8 @@
 
 Blazing fast, structured, leveled logging in Go.
 
+## License
+
 ## Installation
 
 `go get -u go.uber.org/zap`
@@ -134,3 +136,5 @@ pinned in zap's [glide.lock][] file. [↩](#anchor-versions)
 [cov]: https://codecov.io/gh/uber-go/zap
 [benchmarking suite]: https://github.com/uber-go/zap/tree/master/benchmarks
 [glide.lock]: https://github.com/uber-go/zap/blob/master/glide.lock
+
+
