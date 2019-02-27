@@ -2,6 +2,8 @@
 
 Blazing fast, structured, leveled logging in Go.
 
+Run FOSSA
+
 ## Installation
 
 `go get -u go.uber.org/zap`
