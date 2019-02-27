@@ -12,10 +12,15 @@ cache:
     - vendor
 install:
   - make dependencies
+
+before_script:
+  - "curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/fossas/fossa-cli/master/install.sh | sudo bash"
+
 script:
   - make lint
   - make test
   - make bench
+  - fossa
 after_success:
   - make cover
   - bash <(curl -s https://codecov.io/bash)
